@@ -217,6 +217,45 @@ article:nth-of-type(2) {
 
 
 
+
+#form{
+    margin- top: 2%;
+    background-color: #f2f2f2;
+    padding: 2%
+}
+#form h2 { 
+    text-align: center;
+}
+
+
+/*Stle rules for form elements*/
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+}
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1 em;
+    border-radius: 10px;
+}
+
+
+
+
+
 /* Style rules for footer content */
 footer p{
     font-size: 0.75em;
@@ -326,7 +365,33 @@ footer p a {
 }
 
 
+/* Tablet Viewport: Style rules for table */
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width:100%;
+}
 
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+
+th, td{
+    border: 1px solid #000;
+    padding: 2%
+}
+
+tr: nth-child (odd) {
+    background-color : #ccc;
+    
+}
+
+}
 
 /* Media Query for Desktop Viewport*/
 @media screen and (min-width: 1015px), print {
