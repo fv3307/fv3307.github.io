@@ -5,7 +5,7 @@ File name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -87,6 +87,11 @@ main {
     padding: 2%;
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
+}
+
+video{
+    margin: 0 auto 4%;
+    
 }
 
 
@@ -228,7 +233,7 @@ article:nth-of-type(2) {
 }
 
 
-/*Stle rules for form elements*/
+/*Style rules for form elements*/
 fieldset, input, select, textarea {
     margin-bottom: 2%;
 }
@@ -317,7 +322,7 @@ footer p a {
     }
 
     .pic-text{
-        font-szie: 1em;
+        font-size: 1em;
         padding : 10px;
     }
 
@@ -386,7 +391,7 @@ th, td{
     padding: 2%
 }
 
-tr: nth-child (odd) {
+tr:nth-child(odd) {
     background-color : #ccc;
     
 }
@@ -438,7 +443,7 @@ tr: nth-child (odd) {
 
 
     article h3 {
-        font-size: 1.75 em;
+        font-size: 1 75 em;
     }
 
     .pic-text{
